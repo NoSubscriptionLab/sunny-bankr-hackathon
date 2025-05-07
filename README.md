@@ -15,7 +15,19 @@ Sunny is an AI agent built using the ElizaOS framework. Sunny acts as a media wa
 - Integrates with platforms such as Discord, Twitter, and Telegram using plugins.
 - Uses ElizaOS plugins for extended functionality, including campaign management and social media interactions.
 
-Sunny is designed to help crypto communities stay informed, run transparent campaigns, and maintain a high standard of integrity.
+## NEAR Multichain & Journalism Fund (Chain Signatures Demo)
+
+The `near-multichain-sunny` subproject implements a cross-chain signature verification mechanism using Chain Signatures in the NEAR ecosystem. The goal is to create and sign a transaction from Sunny's NEAR account that authorizes the transfer of 10 BANKR tokens. These tokens are reserved for a journalism fund to support public-interest initiatives and reporting efforts in Web3.
+
+The transaction is signed using Chain Signatures to ensure authenticity and allow verification on-chain without relying on a centralized authority. This approach guarantees that:
+
+- The deposit was truly authorized by Sunny's NEAR account.
+- The funds are allocated transparently to a dedicated journalism pool.
+- Third-party apps can validate the signature without trusting external infrastructure.
+
+This setup demonstrates how Chain Abstraction and multichain coordination can power new forms of decentralized governance and funding.
+
+You can find the implementation and more details in the [`near-multichain-sunny/`](./near-multichain-sunny/) directory.
 
 ## Automated Campaign Jobs with n8n Open Source
 
