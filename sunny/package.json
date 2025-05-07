@@ -3,7 +3,6 @@
   "description": "A project for a hackathon agent built with ELIZA OS, designed to showcase agent capabilities and integrations.",
   "version": "1.0.0",
   "type": "module",
-  "private": true,
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,8 +12,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github:elizaos/sunny"
+    "url": "https://github.com/NoSubscriptionLab/sunny-bankr-hackathon"
   },
+  "license": "MIT",
   "exports": {
     "./package.json": "./package.json",
     ".": {
