@@ -24,7 +24,7 @@ Sunny leverages automated workflows ("jobs") created in the open source tool [n8
 1. **Campaign Posting Job:**
    When a campaign is activated, an n8n workflow automatically posts the campaign content to Twitter. This ensures campaigns are published promptly and consistently.
 
-   ![Campaign Posting Workflow](./docs/images/post-tweet.jpeg)
+   ![Campaign Posting Workflow](./docs/images/post-tweet-job.jpeg)
 
 2. **Reply Monitoring Job:**
    After the campaign tweet is posted, another n8n workflow continuously monitors replies to the tweet. This enables real-time engagement tracking and helps Sunny respond or analyze community feedback effectively.
