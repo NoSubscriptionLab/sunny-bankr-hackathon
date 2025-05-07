@@ -16,3 +16,45 @@ Sunny is an AI agent built using the ElizaOS framework. Sunny acts as a media wa
 - Uses ElizaOS plugins for extended functionality, including campaign management and social media interactions.
 
 Sunny is designed to help crypto communities stay informed, run transparent campaigns, and maintain a high standard of integrity.
+
+## How to Run Sunny Locally
+
+To run the Sunny Eliza agent on your local machine, follow these steps:
+
+1. **Navigate to the project directory:**
+
+   ```bash
+   cd sunny
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+   > If you use Bun, you can also run:
+   >
+   > ```bash
+   > bun install
+   > ```
+
+3. **Start the agent:**
+
+   ```bash
+   npm run start
+   ```
+
+   This will launch the Sunny agent using the ElizaOS framework.
+
+4. **Development mode (optional):**
+
+   If you want to run the agent in development mode with hot-reloading, use:
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+Sunny runs from the `sunny` folder. Make sure you are inside this directory before running the commands above.
