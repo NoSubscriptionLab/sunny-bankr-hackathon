@@ -17,6 +17,32 @@ Sunny is an AI agent built using the ElizaOS framework. Sunny acts as a media wa
 
 Sunny is designed to help crypto communities stay informed, run transparent campaigns, and maintain a high standard of integrity.
 
+## Automated Campaign Jobs with n8n Open Source
+
+Sunny leverages automated workflows ("jobs") created in the open source tool [n8n](https://n8n.io/) to streamline campaign management. These jobs are essential for executing and monitoring campaigns efficiently:
+
+1. **Campaign Posting Job:**
+   When a campaign is activated, an n8n workflow automatically posts the campaign content to Twitter. This ensures campaigns are published promptly and consistently.
+
+   ![Campaign Posting Workflow](docs/images/post-tweet.jpeg)
+
+2. **Reply Monitoring Job:**
+   After the campaign tweet is posted, another n8n workflow continuously monitors replies to the tweet. This enables real-time engagement tracking and helps Sunny respond or analyze community feedback effectively.
+
+   ![Reply Monitoring Workflow](docs/images/monitor-campaign-replies.jpeg)
+
+3. **Track Impressions Job:**
+   This n8n workflow is executed to obtain the number of impressions for each campaign post, enabling accurate measurement of campaign reach and performance.
+
+   ![Track Impressions Workflow](docs/images/track-impressions.jpeg)
+
+4. **Pay Winner Job:**
+   This workflow automates the process of paying and updating payments for campaign winners, ensuring timely and transparent reward distribution.
+
+   ![Pay Winner Workflow](docs/images/pay-winner.jpeg)
+
+These jobs run in the background as part of the campaign creation and management process, providing automation and reliability through the n8n open source platform.
+
 ## How to Run Sunny Locally
 
 To run the Sunny Eliza agent on your local machine, follow these steps:
