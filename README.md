@@ -24,22 +24,22 @@ Sunny leverages automated workflows ("jobs") created in the open source tool [n8
 1. **Campaign Posting Job:**
    When a campaign is activated, an n8n workflow automatically posts the campaign content to Twitter. This ensures campaigns are published promptly and consistently.
 
-   ![Campaign Posting Workflow](./docs/images/post-tweet-job.jpeg)
+   ![Campaign Posting Workflow](./docs/images/post-tweet.png)
 
 2. **Reply Monitoring Job:**
    After the campaign tweet is posted, another n8n workflow continuously monitors replies to the tweet. This enables real-time engagement tracking and helps Sunny respond or analyze community feedback effectively.
 
-   ![Reply Monitoring Workflow](./docs/images/monitor-campaign-replies.jpeg)
+   ![Reply Monitoring Workflow](./docs/images/monitor-campaign-replies.png)
 
 3. **Track Impressions Job:**
    This n8n workflow is executed to obtain the number of impressions for each campaign post, enabling accurate measurement of campaign reach and performance.
 
-   ![Track Impressions Workflow](./docs/images/track-impressions.jpeg)
+   ![Track Impressions Workflow](./docs/images/track-impressions.png)
 
 4. **Pay Winner Job:**
    This workflow automates the process of paying and updating payments for campaign winners, ensuring timely and transparent reward distribution.
 
-   ![Pay Winner Workflow](./docs/images/pay-winner.jpeg)
+   ![Pay Winner Workflow](./docs/images/pay-winner.png)
 
 These jobs run in the background as part of the campaign creation and management process, providing automation and reliability through the n8n open source platform.
 
