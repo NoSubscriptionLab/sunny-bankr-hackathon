@@ -1,0 +1,70 @@
+{
+  "name": "sunny-bankr-hackathon",
+  "description": "A project for a hackathon agent built with ELIZA OS, designed to showcase agent capabilities and integrations.",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "project",
+    "elizaos"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:elizaos/sunny"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@elizaos/cli": "beta",
+    "@elizaos/core": "beta",
+    "@elizaos/plugin-bootstrap": "^1.0.0-beta.45",
+    "@elizaos/plugin-local-ai": "^1.0.0-beta.45",
+    "@elizaos/plugin-openai": "^1.0.0-beta.45",
+    "@elizaos/plugin-sql": "beta",
+    "@elizaos/plugin-twitter": "^1.0.0-beta.45",
+    "@fleek-platform/eliza-plugin-mcp": "^0.0.8",
+    "zod": "3.24.2"
+  },
+  "devDependencies": {
+    "tsup": "8.4.0",
+    "prettier": "3.5.3",
+    "vitest": "2.1.5",
+    "@vitest/coverage-v8": "2.1.5"
+  },
+  "scripts": {
+    "start": "elizaos start",
+    "dev": "elizaos dev",
+    "build": "tsup",
+    "lint": "prettier --write ./src",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "format": "prettier --write ./src",
+    "format:check": "prettier --check ./src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b165ad83e5f7a21bc1edbd83374ca087e3cd6b33",
+  "packageType": "project",
+  "agentConfig": {
+    "pluginType": "elizaos:project:1.0.0",
+    "projectConfig": {
+      "name": "sunny",
+      "description": "Project starter for elizaOS"
+    }
+  }
+}
